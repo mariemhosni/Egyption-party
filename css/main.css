@@ -1,0 +1,157 @@
+
+   #home{
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    position: relative;
+
+   }
+.main-text{
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 500;
+    margin-top: 200px;
+   
+}
+
+.sidenav{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+   
+    transition:all 1s;
+    color: white;
+}
+.sidenav a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+#home-content {
+    transition: margin-left 0.5s;
+    padding: 16px;
+}
+   .homeLayer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+.sidenav{
+background-color: black;
+position: fixed;
+}
+
+#btnClose{
+    position: relative;
+    left: 60%;
+}
+#scroll{
+
+
+    margin: 100px auto;
+}
+#scroll h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+#scroll div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#scroll .first{
+    display:block;
+}
+
+
+
+
+#countdown{
+background-image: url(../images/invitation-2508607__340.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+position: relative;
+height: 330px;
+
+}
+.countdown-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+.container
+{
+    padding: 100px 0px;
+}
+
+
+.time{
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+#contact-us h2{
+font-size: 35px;
+font-weight:700;
+line-height: 42px;
+color: #444;
+}
+
+#contact-us p{
+    font-size: 16px;
+    font-weight:400;
+    line-height: 26px;
+    color: #777;
+
+}
+
+.social-media i{
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social-media i:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
